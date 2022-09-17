@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity(), CardListener {
             //0f = ilang tulisannya
             viewBind.blank.alpha = 0f
         }
-        //buat ngecheck buat update database kalo misal ada data yang ganti
+        //buat ngecheck buat update database kalo misal ada data yang gantii
         adapter.notifyDataSetChanged()
     }
 
