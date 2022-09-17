@@ -60,7 +60,7 @@ class ListDataRVAdapter(val listUser: ArrayList<User>, val cardListener: CardLis
 
                 builder.setPositiveButton(android.R.string.yes) { function, which ->
 
-                    Toast.makeText(it.context,"Yah kehapus, byebye", Toast.LENGTH_SHORT)
+                    Toast.makeText(it.context,"Yah kehapus, byebye", Toast.LENGTH_SHORT).show()
 
                     GlobalVar.listDataHewan.removeAt(position)
                     notifyItemRemoved(position)
